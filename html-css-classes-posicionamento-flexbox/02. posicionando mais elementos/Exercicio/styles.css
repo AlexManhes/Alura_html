@@ -1,0 +1,57 @@
+/* 1) Ajustando a altura da tela com CSS */
+body {
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* 2) Controlando o tamanho de elementos com Box Sizing */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* 3) Criando um layout sem scroll */
+  .no-scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .content-box {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* 4) Flexbox: alinhando textos e imagens */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .descricao-patolino {
+    flex: 1;
+  }
+  .imagem {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  /* 5) Flexbox: Centralização vertical */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* Ajuste conforme necessário */
+  }
+  
+  /* 6) Flexbox: responsividade e alinhamento */
+  .responsivo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
