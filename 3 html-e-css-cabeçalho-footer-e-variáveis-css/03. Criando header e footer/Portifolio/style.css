@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -14,7 +14,7 @@ body{
     color: #22D4FD;
 }
 .apresentacao{
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,11 +59,19 @@ body{
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    font-family: "Montserrat", serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     gap: 16px;
 }
 .apresentacao__links__btn:hover{
     cursor: pointer;
     background-color: #272727; 
+}
+.rodape{
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
