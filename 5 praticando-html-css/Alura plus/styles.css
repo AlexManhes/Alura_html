@@ -132,3 +132,52 @@ body {
   background-color: var(--botao-azul-efeito);
   color: var(--cor-de-fundo);
 }
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .container__caixa {
+    margin: 2em;
+  }
+
+  .container__titulo {
+    font-size: 24px;
+  }
+
+  .descricao__titulo {
+    font-size: 32px;
+  }
+
+  .descricao__texto {
+    font-size: 14px;
+  }
+
+  .secundario {
+    margin: 0 2em;
+    text-align: center;
+  }
+
+  .dispositivos__lista {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lista__item {
+    font-size: 24px;
+    margin-bottom: 1em;
+  }
+
+  .rodape_lista {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lista__link a {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
+}
